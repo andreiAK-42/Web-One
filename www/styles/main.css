@@ -153,11 +153,16 @@ nav a {
 .featured_destination_form {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .featured_destination_content  {
     display: flex;
     margin: 100px;
+    width: 80%;
 }
 
 .featured_destination_text_content {
@@ -215,6 +220,7 @@ nav a {
 }
 
 .discover_world_form {
+    width: 100%;
     height: auto;
     align-items: center;
     text-align: center;
@@ -370,6 +376,7 @@ nav a {
 .share_travels_link_form_unputs input.share_travels_big_input::placeholder {
     transform: translateY(-30px);
 }
+
 
 
 .share_travels_link_form_unputs input::placeholder {
