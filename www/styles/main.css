@@ -13,7 +13,7 @@ header {
 }
 
 button,
-li:hover, .linkbox, .card_container p, .recent_stories_main_story_description_button {
+li:hover, .linkbox, .card_container p, .recent_stories_main_story_description_button, .header_buttons img {
     cursor: pointer;
 }
 
@@ -51,9 +51,23 @@ nav a {
     padding: 8px;
 }
 
+.header_buttons {
+    margin-top: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-.verticalLine {
-    border-left: thick solid gray;
+.header_buttons img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.header_wall {
+    width: 1px;
+    height: 40%;
+    background-color: #EEEEEE;
 }
 
 .travel_presentation_form {

@@ -25,6 +25,25 @@ input {
     display: block
 }
 
+.header_buttons {
+    margin-top: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_buttons img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.header_wall {
+    width: 1px;
+    height: 40%;
+    background-color: #EEEEEE;
+}
+
 p {
     margin: 0;
 }
@@ -51,6 +70,7 @@ nav ul {
 }
 
 nav li {
+    font-family: "Roboto";
     display: flex;
     margin-right: 20px;
     justify-content: center;
