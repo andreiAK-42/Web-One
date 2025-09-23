@@ -12,6 +12,11 @@ header {
     justify-content: space-between;
 }
 
+button,
+li:hover, .linkbox, .card_container p, .recent_stories_main_story_description_button {
+    cursor: pointer;
+}
+
 input {
     display: block
 }
@@ -33,6 +38,7 @@ nav ul {
 }
 
 nav li {
+    font-family: "Roboto";
     display: flex;
     margin-right: 20px;
     justify-content: center;
