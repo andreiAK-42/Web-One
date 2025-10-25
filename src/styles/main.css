@@ -81,7 +81,7 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../assets/images/hero\ background\ image.png");
+  background-image: url("../assets/images/Hero\ Background\ Image.png");
   background-size: cover;
 }
 
@@ -149,7 +149,7 @@ nav a {
   width: 36px;
   height: 36px;
   border-radius: 20px;
-  background-image: url("../assets/images/Polygon\ 1.png");
+  background-image: url("../assets/images/Play.png");
   background-size: 19px;
   background-position: center;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ nav a {
   height: 36px;
   border: none;
   border-radius: 20px;
-  background-image: url("../assets/images/Polygon\ 1.png");
+  background-image: url("../assets/images/Play.png");
   background-size: 19px;
   background-position: center;
   background-repeat: no-repeat;
@@ -493,7 +493,7 @@ footer {
   width: 36px;
   height: 36px;
   border-radius: 20px;
-  background-image: url("../assets/images/Polygon\ 1.png");
+  background-image: url("../assets/images/Play.png");
   background-size: 19px;
   background-position: center;
   background-repeat: no-repeat;
