@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav li {
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   display: flex;
   margin-right: 20px;
   justify-content: center;
@@ -95,7 +95,7 @@ nav a {
 
 .travel_presentation_content h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-style: normal;
   font-size: 73px;
   font-weight: 400;
@@ -103,7 +103,7 @@ nav a {
 
 .travel_presentation_content > p {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-style: Regular;
   font-size: 22px;
   margin-top: -20px;
@@ -121,7 +121,7 @@ nav a {
   width: 165px;
   height: 46px;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
 }
 
 .travel_presentation_buttons {
@@ -184,14 +184,14 @@ nav a {
 .featured_destination_text_content p:first-child {
   color: #8a53ff;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   letter-spacing: 6%;
   font-weight: 700;
 }
 
 .featured_destination_text_content p:nth-child(even) {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-size: 39px;
   font-weight: 400;
 }
@@ -233,7 +233,7 @@ nav a {
 
 .discover_world_form p {
   color: #8a53ff;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 18px;
   font-weight: 700;
   line-height: 33px;
@@ -242,14 +242,14 @@ nav a {
 
 .discover_world_form h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-size: 39px;
   font-weight: 400;
 }
 
 .featured_destination_text_content_question {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-style: Regular;
   font-size: 16px;
 }
@@ -302,7 +302,7 @@ nav a {
 
 .share_travels_form h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-size: 39px;
   font-weight: 400;
 }
@@ -334,7 +334,7 @@ nav a {
 
 .share_travels_link_form_description p {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -343,7 +343,7 @@ nav a {
 
 .share_travels_link_form_description p:last-child {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   max-width: 80%;
   font-style: normal;
   font-size: 16px;
@@ -398,7 +398,7 @@ nav a {
   width: 165px;
   height: 46px;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
 }
 
 .recent_stories_form {
@@ -409,7 +409,7 @@ nav a {
 
 .recent_stories_header p {
   color: #8a53ff;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 18px;
   font-weight: 700;
   line-height: 33px;
@@ -481,7 +481,7 @@ footer {
 
 .recent_stories_main_story_description h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -537,7 +537,7 @@ footer {
 
 .recent_stories_card h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -546,7 +546,7 @@ footer {
 
 .recent_stories_card p {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   max-width: 80%;
   font-style: normal;
   font-size: 16px;

@@ -52,7 +52,7 @@ p {
 h1 {
   margin: 0;
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-size: 39px;
   font-weight: 400;
 }
@@ -70,7 +70,7 @@ nav ul {
 }
 
 nav li {
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   display: flex;
   margin-right: 20px;
   justify-content: center;
@@ -103,7 +103,7 @@ nav a {
 .title {
   text-transform: none;
   color: #495367;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-style: italic;
   font-size: 14px;
   font-weight: 400;
@@ -148,7 +148,7 @@ nav a {
   margin-left: 10px;
   text-transform: none;
   color: #495367;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 16px;
   font-weight: 400;
   line-height: 33px;
@@ -161,7 +161,7 @@ nav a {
 
 .violet_title {
   color: #8a53ff;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 18px;
   font-weight: 700;
   line-height: 33px;
@@ -189,7 +189,7 @@ nav a {
 .share_travels_form p {
   text-transform: uppercase;
   color: #8a53ff;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 18px;
   font-weight: 700;
   line-height: 33px;
@@ -197,7 +197,7 @@ nav a {
 
 .share_travels_form h1 {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-size: 39px;
   font-weight: 400;
 }
@@ -234,7 +234,7 @@ p {
 
 .share_travels_link_form_description p {
   color: #434343;
-  font-family: "Changa One";
+  font-family: "Changa One", "Ubuntu";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -243,7 +243,7 @@ p {
 
 .share_travels_link_form_description p:last-child {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   max-width: 80%;
   font-style: normal;
   font-size: 16px;
@@ -298,7 +298,7 @@ p {
   width: 165px;
   height: 46px;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
 }
 
 .blog_main_container iframe {
@@ -347,7 +347,7 @@ p {
 
 .usual_text {
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-size: 16px;
   line-height: 26px;
 }
@@ -389,7 +389,7 @@ p {
 .callout_text_container p {
   width: 421px;
   color: #434343;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-style: normal;
   font-size: 16px;
   text-transform: none;
@@ -486,7 +486,7 @@ p {
   text-align: start;
   margin: 0;
   color: #939eb4;
-  font-family: "Roboto";
+  font-family: "Roboto", "Ubuntu";
   font-style: italic;
   font-size: 14px;
   text-transform: none;
