@@ -1,0 +1,521 @@
+* {
+  text-decoration: none;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  justify-items: center;
+}
+
+button,
+li:hover {
+  cursor: pointer;
+}
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  display: block;
+}
+
+.header_buttons {
+  margin-top: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header_buttons img {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.header_wall {
+  width: 1px;
+  height: 40%;
+  background-color: #eeeeee;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #434343;
+  font-family: "Changa One", "Ubuntu";
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.logo {
+  float: left;
+}
+
+nav ul {
+  height: 100%;
+  float: right;
+  display: flex;
+  list-style: none;
+  padding: auto;
+}
+
+nav li {
+  font-family: "Roboto", "Ubuntu";
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #495367;
+  text-decoration: none;
+  size: 16px;
+  padding: 8px;
+}
+
+.blog_form {
+  margin-top: 60px;
+  height: auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: top;
+  text-align: center;
+}
+
+.article_hero_header {
+  text-align: start;
+  width: 100%;
+}
+
+.title {
+  text-transform: none;
+  color: #495367;
+  font-family: "Roboto", "Ubuntu";
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 100%;
+}
+
+.public_profile {
+  display: flex;
+}
+
+.public_profile .title {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.article_hero_header p {
+  margin: 0;
+}
+
+.article_hero_container {
+  display: flex;
+}
+
+.article_author_container {
+  display: flex;
+  height: auto;
+  width: 25vw;
+  justify-content: end;
+  align-items: center;
+  text-align: start;
+}
+
+.article_author_container img {
+  width: 35px;
+  height: 35px;
+}
+
+.article_author_container p {
+  margin: 0;
+  margin-left: 10px;
+  text-transform: none;
+  color: #495367;
+  font-family: "Roboto", "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.blog_main_container {
+  width: 60%;
+  height: auto;
+}
+
+.violet_title {
+  color: #8a53ff;
+  font-family: "Roboto", "Ubuntu";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.share_travels_form {
+  width: 100%;
+  background-image: url("../assets/images/Share\ your\ travels\ section\ background\ image.png");
+  height: 120vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+}
+
+.recent_stories_header {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.share_travels_form p {
+  text-transform: uppercase;
+  color: #8a53ff;
+  font-family: "Roboto", "Ubuntu";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.share_travels_form h1 {
+  color: #434343;
+  font-family: "Changa One", "Ubuntu";
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.share_travels_header {
+  width: 100%;
+  justify-content: center;
+}
+
+.share_travels_header h1,
+p {
+  margin: 20px;
+}
+
+.share_travels_link_form_container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.share_travels_link_form {
+  width: 40%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.share_travels_link_form_description {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.share_travels_link_form_description p {
+  color: #434343;
+  font-family: "Changa One", "Ubuntu";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.share_travels_link_form_description p:last-child {
+  color: #434343;
+  font-family: "Roboto", "Ubuntu";
+  max-width: 80%;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.share_travels_link_form_unputs {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.share_travels_link_form_unputs input {
+  width: 90%;
+  height: 51px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #d6d6d6;
+  margin-top: 10px;
+  border-style: solid;
+}
+
+.share_travels_link_form_unputs input.share_travels_big_input {
+  width: 90%;
+  height: 102px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #d6d6d6;
+  margin-top: 10px;
+  border-style: solid;
+}
+
+.share_travels_link_form_unputs input.share_travels_big_input::placeholder {
+  transform: translateY(-30px);
+}
+
+.share_travels_link_form_unputs input::placeholder {
+  padding: 10px;
+}
+
+.share_travels_button_submit {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.share_travels_button_submit button {
+  min-width: 226px;
+  background-color: #8a53ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 165px;
+  height: 46px;
+  font-size: 16px;
+  font-family: "Roboto", "Ubuntu";
+}
+
+.blog_main_container iframe {
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.article_hero_video_form {
+  width: 100%;
+  min-height: 20vh;
+  display: block;
+  text-align: start;
+}
+
+.clincher_form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 20vh;
+  text-align: start;
+}
+
+.clincher_form .usual_text {
+  margin-top: 20px;
+}
+
+.conclusion_form {
+  text-align: start;
+}
+
+.disclaimer_form {
+  height: auto;
+  background-color: #fafafa;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.disclaimer_form .usual_text {
+  margin: 20px;
+  text-align: start;
+}
+
+.usual_text {
+  color: #434343;
+  font-family: "Roboto", "Ubuntu";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.callout_form {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.callout_container {
+  width: 50%;
+  height: 80%;
+  display: flex;
+}
+
+.callout_image_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.callout_small_images {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.callout_text_container {
+  display: block;
+  width: 50%;
+  height: 90%;
+}
+
+.callout_text_container p {
+  width: 421px;
+  color: #434343;
+  font-family: "Roboto", "Ubuntu";
+  font-style: normal;
+  font-size: 16px;
+  text-transform: none;
+  text-align: start;
+  margin: 0;
+  line-height: 26px;
+}
+
+.callout_small_images img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callout_big_image img {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  background-image: url("../assets/images/Article\ Hero\ Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.callout_text_container h1 {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.callout_button {
+  display: flex;
+  margin-top: 40px;
+}
+
+.callout_text_header {
+  display: flex;
+}
+
+.callout_text_header img {
+  width: 34px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.callout_text_container {
+  margin-top: 120px;
+}
+
+.callout_text_container {
+  margin-left: 20px;
+}
+
+.callout_button button {
+  min-width: 226px;
+  background-color: #8a53ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 165px;
+  height: 46px;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.hightlights_form {
+  margin-top: 40px;
+  display: block;
+  width: 100%;
+  justify-content: center;
+}
+
+.highlights_container {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 2%;
+}
+
+.highlight_card {
+  display: block;
+}
+
+.highlight_card img {
+  width: 100%;
+  height: auto;
+}
+
+.highlight_card p {
+  text-align: start;
+  margin: 0;
+  color: #939eb4;
+  font-family: "Roboto", "Ubuntu";
+  font-style: italic;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 22px;
+}
+
+.hightlights_form h1 {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+footer {
+  min-height: 80px;
+  height: 80px;
+  width: 100%;
+}
+
+.footer_container {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer_container p {
+  color: #939eb4;
+  margin-right: 40%;
+}
+
+.footer_container nav ul a {
+  color: #939eb4;
+}
